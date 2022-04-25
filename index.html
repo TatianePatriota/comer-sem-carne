@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comer sem Carne</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <section class="img-container">
+        <div class="cabecalho">
+            <div class="img"></div>
+        </div>
+        </section>
+        <section class="card">
+            <h1 class="titulo-principal">Comer sem Carne</h1>
+            <h2 class="titulo-card">Cadastro</h2>
+        <form>
+            <fieldset>
+            <div class="input-container">
+                <label class="label-input" for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" class="input" required>
+            </div>
+            <div class="input-container">
+                <label class="label-input" for="email">Email</label>
+                <input type="email" name="email" id="email" class="input" required>
+            </div>
+            <div class="input-container">
+                <label for="senha" class="label-input">Senha</label>
+                <input type="password" name="senha" id="senha" class="input" pattern="">
+            </div>
+            <div class="input-container">
+                <label for="nascimento" class="label-input">Data de Nascimento</label>
+                <input type="text" name="nascimento" id="nascimento" class="input" required>
+            </div>
+            <div class="input-container">
+                <label for="cpf" class="label-input">CPF</label>
+                <input type="text" name="cpf" id="cpf" class="input" required>
+            </div>
+            </fieldset>
+            <button>Cadastrar</button>
+        </form>
+        </section>
+    </main>
+  </body>
+</html>
